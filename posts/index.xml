@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on uid0 development</title>
+    <link>https://uid0.eu/posts/</link>
+    <description>Recent content in Posts on uid0 development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 30 Aug 2018 20:34:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://uid0.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yepp it is hug</title>
+      <link>https://uid0.eu/posts/my-first-post/</link>
+      <pubDate>Thu, 30 Aug 2018 20:34:11 +0200</pubDate>
+      
+      <guid>https://uid0.eu/posts/my-first-post/</guid>
+      <description>Test
+This should be code</description>
+    </item>
+    
+  </channel>
+</rss>
