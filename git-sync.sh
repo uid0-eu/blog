@@ -66,7 +66,7 @@ DEFAULT_AUTOCOMMIT_CMD="git add -u ; git commit -m \"%message\";"
 ALL_AUTOCOMMIT_CMD="git add -A ; git commit -m \"%message\"; "
 
 # default commit message substituted into autocommit commands
-DEFAULT_AUTOCOMMIT_MSG="changes from  $(date)"
+DEFAULT_AUTOCOMMIT_MSG="changes from $(uname -n) on $(date)"
 
 
 # AUTOCOMMIT_CMD="echo \"Please commit or stash pending changes\"; exit 1;"
