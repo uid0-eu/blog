@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>uid0</title>
-    <link>https://uid0-eu.github.io/blog/</link>
-    <description>Recent content on uid0</description>
+    <title>Posts on uid0</title>
+    <link>https://uid0-eu.github.io/blog/posts/</link>
+    <description>Recent content in Posts on uid0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Wed, 24 Jul 2019 20:36:12 +0200</lastBuildDate>
     
-	<atom:link href="https://uid0-eu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://uid0-eu.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>Impressum</title>
-      <link>https://uid0-eu.github.io/blog/impressum/</link>
-      <pubDate>Tue, 25 Sep 2018 20:31:41 +0200</pubDate>
-      
-      <guid>https://uid0-eu.github.io/blog/impressum/</guid>
-      <description>Jep it&amp;rsquo;s here</description>
-    </item>
-    
-    <item>
       <title>Proxmox compile kernel</title>
       <link>https://uid0-eu.github.io/blog/posts/proxmox-kernel-compile/</link>
       <pubDate>Thu, 30 Aug 2018 21:58:42 +0200</pubDate>
@@ -52,15 +43,6 @@ linux-tools-4.4_4.4.40-80_amd64.deb proxmox-ve_4.4-80_all.deb pve-firmware_1.1-1
 Ich wollte GPU Passtrough aktivieren, auch wenn jemand in ./ubuntu-xenial/drivers/iommu/intel-iommu.c
 der Meinung war, dass es auf meiner Hardware nicht ginge:
 if (device_is_rmrr_locked(dev)) { dev_warn(dev, &amp;#34;Device is ineligible for IOMMU domain attach due to platform RMRR requirement.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://uid0-eu.github.io/blog/contact/</link>
-      <pubDate>Thu, 30 Aug 2018 21:02:53 +0200</pubDate>
-      
-      <guid>https://uid0-eu.github.io/blog/contact/</guid>
-      <description>H1 H2 H3 INline Code Raladlaödjaösfjaofjposajfpoasjfpoasjfpoajfpoajsfpoasjfpojasfpojaspofjaspofjpasfpoasjfpoasjfpoasfjasfpojaposfjpaofsjafspjapsfojaposfjpoasjfpoajsfpoajsfpoajsfpoajsfpojaspfojspoafjaposfjpoasjfpoasjfpoajsfpoajsfpojasfpojasfpojaspfjapsfjapsjfpasjfpajsfpajsfpajsfpajsfpajsfpajspasfpoajsfpjasfpjasfpjafspojapfojafpsoj bold</description>
     </item>
     
   </channel>
