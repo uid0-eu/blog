@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Should not be here</title>
+      <link>https://uid0-eu.github.io/blog/data/</link>
+      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
+      
+      <guid>https://uid0-eu.github.io/blog/data/</guid>
+      <description>Sorry could notlsthe dirs</description>
+    </item>
+    
+    <item>
       <title>Proxmox compile kernel</title>
       <link>https://uid0-eu.github.io/blog/posts/proxmox-kernel-compile/</link>
       <pubDate>Thu, 30 Aug 2018 21:58:42 +0200</pubDate>
