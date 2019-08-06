@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="uid0">
+    <meta name="description" content="uid0 full stack development">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Proxmox compile kernel"/>
+<meta name="twitter:description" content="Requirements:
+apt-get install build-essential fakeroot bison flex apt-get build-dep linux apt-get install asciidoc --no-install-recommends Kernel Quellen
+git clone --depth 1 git://git.proxmox.com/git/pve-kernel.git make Deb installieren
+Hat alles geklappt findet man folgende deb Dateien:
+linux-tools-4.4_4.4.40-80_amd64.deb proxmox-ve_4.4-80_all.deb pve-firmware_1.1-10_all.deb pve-headers-4.4.40-1-pve_4.4.40-80_amd64.deb pve-headers_4.4-80_all.deb pve-kernel-4.4.40-1-pve_4.4.40-80_amd64.deb Warum sollte man sowas tun wollen?
+Ich wollte GPU Passtrough aktivieren, auch wenn jemand in ./ubuntu-xenial/drivers/iommu/intel-iommu.c
+der Meinung war, dass es auf meiner Hardware nicht ginge:
+if (device_is_rmrr_locked(dev)) { dev_warn(dev, &#34;Device is ineligible for IOMMU domain attach due to platform RMRR requirement."/>
+
+    <meta property="og:title" content="Proxmox compile kernel" />
+<meta property="og:description" content="Requirements:
+apt-get install build-essential fakeroot bison flex apt-get build-dep linux apt-get install asciidoc --no-install-recommends Kernel Quellen
+git clone --depth 1 git://git.proxmox.com/git/pve-kernel.git make Deb installieren
+Hat alles geklappt findet man folgende deb Dateien:
+linux-tools-4.4_4.4.40-80_amd64.deb proxmox-ve_4.4-80_all.deb pve-firmware_1.1-10_all.deb pve-headers-4.4.40-1-pve_4.4.40-80_amd64.deb pve-headers_4.4-80_all.deb pve-kernel-4.4.40-1-pve_4.4.40-80_amd64.deb Warum sollte man sowas tun wollen?
+Ich wollte GPU Passtrough aktivieren, auch wenn jemand in ./ubuntu-xenial/drivers/iommu/intel-iommu.c
+der Meinung war, dass es auf meiner Hardware nicht ginge:
+if (device_is_rmrr_locked(dev)) { dev_warn(dev, &#34;Device is ineligible for IOMMU domain attach due to platform RMRR requirement." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://uid0-eu.github.io/blog/posts/proxmox-kernel-compile/" />
+<meta property="article:published_time" content="2018-08-30T21:58:42&#43;02:00"/>
+<meta property="article:modified_time" content="2018-08-30T21:58:42&#43;02:00"/>
+
+
+    
+      <base href="https://uid0-eu.github.io/blog/posts/proxmox-kernel-compile/">
+    
+    <title>
+  Proxmox compile kernel · uid0
+</title>
+
+    
+      <link rel="canonical" href="https://uid0-eu.github.io/blog/posts/proxmox-kernel-compile/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/blog/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://uid0-eu.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://uid0-eu.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.55.6" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://uid0-eu.github.io/blog/">
+      uid0
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/posts">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/contact">Contact</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Proxmox compile kernel</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2018-08-30T21:58:42&#43;02:00'>
+                August 30, 2018
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              Eine Minute Lesezeit
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/blog/tags/linux/">Linux</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p><strong>Requirements:</strong></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">apt-get install build-essential fakeroot bison flex
+apt-get build-dep linux
+apt-get install asciidoc --no-install-recommends</pre></div>
+<p><strong>Kernel Quellen</strong></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">git clone --depth 1 git://git.proxmox.com/git/pve-kernel.git
+make</pre></div>
+<p><strong>Deb installieren</strong></p>
+
+<p>Hat alles geklappt findet man folgende deb Dateien:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">linux-tools-4.4_4.4.40-80_amd64.deb
+proxmox-ve_4.4-80_all.deb
+pve-firmware_1.1-10_all.deb
+pve-headers-4.4.40-1-pve_4.4.40-80_amd64.deb
+pve-headers_4.4-80_all.deb
+pve-kernel-4.4.40-1-pve_4.4.40-80_amd64.deb</pre></div>
+<p><strong>Warum sollte man sowas tun wollen?</strong></p>
+
+<p>Ich wollte GPU Passtrough aktivieren, auch wenn jemand in <code>./ubuntu-xenial/drivers/iommu/intel-iommu.c</code></p>
+
+<p>der Meinung war, dass es auf meiner Hardware nicht ginge:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">        if (device_is_rmrr_locked(dev)) {
+                dev_warn(dev, &#34;Device is ineligible for IOMMU domain attach due to platform RMRR requirement.  Contact your platform vendor.\n&#34;);
+                return -EPERM;
+        }</pre></div>
+<p>Nachher:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">    if (device_is_rmrr_locked(dev)) {
+                dev_warn(dev, &#34;Warning Device is ineligible for IOMMU domain attach due to platform RMRR requirement.  Contact your platform vendor. Warranty void\n&#34;);
+        }</pre></div>
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p><a href='/blog/impressum'>Impressum</a></p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
