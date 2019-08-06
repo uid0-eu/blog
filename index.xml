@@ -47,10 +47,10 @@ if (device_is_rmrr_locked(dev)) { dev_warn(dev, &amp;#34;Device is ineligible fo
     
     <item>
       <title>Contact</title>
-      <link>https://uid0-eu.github.io/blog/contact/</link>
+      <link>https://uid0-eu.github.io/blog/data/contact/</link>
       <pubDate>Thu, 30 Aug 2018 21:02:53 +0200</pubDate>
       
-      <guid>https://uid0-eu.github.io/blog/contact/</guid>
+      <guid>https://uid0-eu.github.io/blog/data/contact/</guid>
       <description>H1 H2 H3 INline Code Raladlaödjaösfjaofjposajfpoasjfpoasjfpoajfpoajsfpoasjfpojasfpojaspofjaspofjpasfpoasjfpoasjfpoasfjasfpojaposfjpaofsjafspjapsfojaposfjpoasjfpoajsfpoajsfpoajsfpoajsfpojaspfojspoafjaposfjpoasjfpoasjfpoajsfpoajsfpojasfpojasfpojaspfjapsfjapsjfpasjfpajsfpajsfpajsfpajsfpajsfpajspasfpoajsfpjasfpjasfpjafspojapfojafpsoj bold</description>
     </item>
     

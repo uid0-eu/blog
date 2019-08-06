@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on uid0</title>
+    <link>https://uid0-eu.github.io/blog/data/</link>
+    <description>Recent content in Data on uid0</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 30 Aug 2018 21:02:53 +0200</lastBuildDate>
+    
+	<atom:link href="https://uid0-eu.github.io/blog/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://uid0-eu.github.io/blog/data/contact/</link>
+      <pubDate>Thu, 30 Aug 2018 21:02:53 +0200</pubDate>
+      
+      <guid>https://uid0-eu.github.io/blog/data/contact/</guid>
+      <description>H1 H2 H3 INline Code Raladlaödjaösfjaofjposajfpoasjfpoasjfpoajfpoajsfpoasjfpojasfpojaspofjaspofjpasfpoasjfpoasjfpoasfjasfpojaposfjpaofsjafspjapsfojaposfjpoasjfpoajsfpoajsfpoajsfpoajsfpojaspfojspoafjaposfjpoasjfpoasjfpoajsfpoajsfpojasfpojasfpojaspfjapsfjapsjfpasjfpajsfpajsfpajsfpajsfpajsfpajspasfpoajsfpjasfpjasfpjafspojapfojafpsoj bold</description>
+    </item>
+    
+  </channel>
+</rss>
