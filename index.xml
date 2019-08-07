@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>uid0</title>
-    <link>https://test2.devrandom.de/</link>
-    <description>Recent content on uid0</description>
+    <title>devrandom.de</title>
+    <link>/</link>
+    <description>Recent content on devrandom.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 23 Jul 2019 20:34:11 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 22:55:14 +0200</lastBuildDate>
     
-	<atom:link href="https://test2.devrandom.de/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Yepp this is the first post</title>
-      <link>https://test2.devrandom.de/posts/my-first-post/</link>
-      <pubDate>Tue, 23 Jul 2019 20:34:11 +0200</pubDate>
+      <title>My Second Post</title>
+      <link>/posts/my-second-post/</link>
+      <pubDate>Wed, 07 Aug 2019 22:55:14 +0200</pubDate>
       
-      <guid>https://test2.devrandom.de/posts/my-first-post/</guid>
-      <description>Hallo h3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+      <guid>/posts/my-second-post/</guid>
+      <description>Hello again!</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Wed, 07 Aug 2019 22:53:05 +0200</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>Hello world!
+while true do echo &amp;quot;Hello world&amp;quot; done exit 0  </description>
     </item>
     
     <item>
       <title>418: You should not be here</title>
-      <link>https://test2.devrandom.de/data/</link>
+      <link>/data/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
-      <guid>https://test2.devrandom.de/data/</guid>
+      <guid>/data/</guid>
       <description> &amp;gt;Sorry could not ls into the dirs
 418 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://test2.devrandom.de/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
-      <guid>https://test2.devrandom.de/contact/</guid>
+      <guid>/contact/</guid>
       <description>Click here
 Or not</description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>https://test2.devrandom.de/impressum/</link>
+      <link>/impressum/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
-      <guid>https://test2.devrandom.de/impressum/</guid>
+      <guid>/impressum/</guid>
       <description>Jep it&amp;rsquo;s here</description>
-    </item>
-    
-    <item>
-      <title>Proxmox compile kernel</title>
-      <link>https://test2.devrandom.de/posts/proxmox-kernel-compile/</link>
-      <pubDate>Thu, 30 Aug 2018 21:58:42 +0200</pubDate>
-      
-      <guid>https://test2.devrandom.de/posts/proxmox-kernel-compile/</guid>
-      <description>Requirements:
-apt-get install build-essential fakeroot bison flex apt-get build-dep linux apt-get install asciidoc --no-install-recommends Kernel Quellen
-git clone --depth 1 git://git.proxmox.com/git/pve-kernel.git make Deb installieren
-Hat alles geklappt findet man folgende deb Dateien:
-linux-tools-4.4_4.4.40-80_amd64.deb proxmox-ve_4.4-80_all.deb pve-firmware_1.1-10_all.deb pve-headers-4.4.40-1-pve_4.4.40-80_amd64.deb pve-headers_4.4-80_all.deb pve-kernel-4.4.40-1-pve_4.4.40-80_amd64.deb Warum sollte man sowas tun wollen?
-Ich wollte GPU Passtrough aktivieren, auch wenn jemand in ./ubuntu-xenial/drivers/iommu/intel-iommu.c
-der Meinung war, dass es auf meiner Hardware nicht ginge:
-if (device_is_rmrr_locked(dev)) { dev_warn(dev, &amp;#34;Device is ineligible for IOMMU domain attach due to platform RMRR requirement.</description>
     </item>
     
   </channel>

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on uid0</title>
-    <link>https://test2.devrandom.de/tags/</link>
-    <description>Recent content in Tags on uid0</description>
+    <title>Tags on devrandom.de</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on devrandom.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 30 Aug 2018 21:58:42 +0200</lastBuildDate>
     
-	<atom:link href="https://test2.devrandom.de/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Linux</title>
-      <link>https://test2.devrandom.de/tags/linux/</link>
-      <pubDate>Thu, 30 Aug 2018 21:58:42 +0200</pubDate>
-      
-      <guid>https://test2.devrandom.de/tags/linux/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
