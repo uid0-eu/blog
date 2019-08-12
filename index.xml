@@ -12,60 +12,12 @@
     
     
     <item>
-      <title>Test_Heute</title>
-      <link>/posts/test_heute/</link>
+      <title>Home</title>
+      <link>/index.html</link>
       <pubDate>Mon, 12 Aug 2019 20:56:45 +0200</pubDate>
       
-      <guid>/posts/test_heute/</guid>
-      <description>//Das ist ein Test let hans=&amp;quot;Wurst&amp;quot;  Das war es auch schon!</description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>/posts/my-second-post/</link>
-      <pubDate>Wed, 07 Aug 2019 22:55:14 +0200</pubDate>
-      
-      <guid>/posts/my-second-post/</guid>
-      <description>Hello again!</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Wed, 07 Aug 2019 22:53:05 +0200</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>Hello world!
-while true do echo &amp;quot;Hello world&amp;quot; done exit 0  </description>
-    </item>
-    
-    <item>
-      <title>418: You should not be here</title>
-      <link>/data/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/data/</guid>
-      <description> &amp;gt;Sorry could not ls into the dirs
-418 </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Click here
-Or not</description>
-    </item>
-    
-    <item>
-      <title>Impressum</title>
-      <link>/impressum/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/impressum/</guid>
-      <description>Jep it&amp;rsquo;s here</description>
+      <guid>/index.html</guid>
+      <description>Welcome to my site!</description>
     </item>
     
   </channel>
