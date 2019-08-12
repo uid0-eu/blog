@@ -17,10 +17,7 @@
       <pubDate>Mon, 12 Aug 2019 20:56:45 +0200</pubDate>
       
       <guid>/posts/test_heute/</guid>
-      <description>´´´swift //Das ist ein Test
-let hans=&amp;ldquo;Wurst&amp;rdquo;
-```
-Das war es auch schon!</description>
+      <description>//Das ist ein Test let hans=&amp;quot;Wurst&amp;quot;  Das war es auch schon!</description>
     </item>
     
     <item>
