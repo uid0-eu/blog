@@ -61,12 +61,11 @@ Or not</description>
     
     <item>
       <title>Home</title>
-      <link>/home/</link>
+      <link>/home/welcome/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
-      <guid>/home/</guid>
-      <description>Click here
-Or not</description>
+      <guid>/home/welcome/</guid>
+      <description>Welcome to my site!</description>
     </item>
     
     <item>
