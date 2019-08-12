@@ -60,11 +60,11 @@ Or not</description>
     </item>
     
     <item>
-      <title>Home</title>
-      <link>/home/</link>
+      <title>Home2</title>
+      <link>/home/home2/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
-      <guid>/home/</guid>
+      <guid>/home/home2/</guid>
       <description>I should be home!
 WIP  </description>
     </item>
