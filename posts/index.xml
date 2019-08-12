@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devrandom.de</title>
-    <link>/</link>
-    <description>Recent content on devrandom.de</description>
+    <title>Posts on devrandom.de</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on devrandom.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Mon, 12 Aug 2019 20:56:45 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -37,44 +37,6 @@
       <guid>/posts/my-first-post/</guid>
       <description>Hello world!
 while true do echo &amp;quot;Hello world&amp;quot; done exit 0  </description>
-    </item>
-    
-    <item>
-      <title>418: You should not be here</title>
-      <link>/data/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/data/</guid>
-      <description> &amp;gt;Sorry could not ls into the dirs
-418 </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Click here
-Or not</description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>/home/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/home/</guid>
-      <description>Welcome to my home</description>
-    </item>
-    
-    <item>
-      <title>Impressum</title>
-      <link>/impressum/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/impressum/</guid>
-      <description>Jep it&amp;rsquo;s here</description>
     </item>
     
   </channel>

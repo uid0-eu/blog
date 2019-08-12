@@ -4,16 +4,71 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag1/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag2/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/test_heute/</loc>
+    <lastmod>2019-08-12T20:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my-second-post/</loc>
+    <lastmod>2019-08-07T22:55:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my-first-post/</loc>
+    <lastmod>2019-08-07T22:53:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data/</loc>
+    <lastmod>2019-07-22T20:31:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2019-07-22T20:31:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/home/</loc>
+    <lastmod>2019-07-22T20:31:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/impressum/</loc>
+    <lastmod>2019-07-22T20:31:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
