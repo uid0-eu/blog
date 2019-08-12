@@ -60,6 +60,16 @@ Or not</description>
     </item>
     
     <item>
+      <title>Home</title>
+      <link>/home/</link>
+      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
+      
+      <guid>/home/</guid>
+      <description>I should be home!
+WIP  </description>
+    </item>
+    
+    <item>
       <title>Impressum</title>
       <link>/impressum/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
