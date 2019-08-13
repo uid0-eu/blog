@@ -60,22 +60,21 @@ Or not</description>
     </item>
     
     <item>
-      <title>Home</title>
-      <link>/home/</link>
-      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
-      
-      <guid>/home/</guid>
-      <description>Click here
-Or not</description>
-    </item>
-    
-    <item>
       <title>Impressum</title>
       <link>/impressum/</link>
       <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
       
       <guid>/impressum/</guid>
       <description>Jep it&amp;rsquo;s here</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>/home/</link>
+      <pubDate>Mon, 22 Jul 2019 20:31:41 +0200</pubDate>
+      
+      <guid>/home/</guid>
+      <description> uid0 it solutions  handcrafted tailored on your needs no bullshit  </description>
     </item>
     
   </channel>
